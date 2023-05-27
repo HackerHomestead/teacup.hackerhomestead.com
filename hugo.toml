@@ -1,0 +1,5 @@
+baseURL = 'http://teacup.hackerhomestead.com/'
+languageCode = 'en-us'
+title = 'Teacup - Tinkerboard'
+theme = "hugo-book"
+relativeURLs = true
