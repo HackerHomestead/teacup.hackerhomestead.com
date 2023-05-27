@@ -8,7 +8,7 @@ type: docs
 
 {{< columns >}}
 ## > Makers
-Something between a Micocontroller and a Single Board computer, Teacup allows you to optimize your next project without loosing the flexablity of the linux ecosystem.
+Something between a Micocontroller and a Single Board computer, Teacup allows you to optimize your next project without losing the flexablity of the linux ecosystem.
 Teacup is a referance design, our aim is to provide a smooth ramp to a professional prodcut design
 
 <--->
