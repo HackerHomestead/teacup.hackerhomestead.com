@@ -2,29 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/table-of-contents/with-toc/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/table-of-contents/without-toc/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/table-of-contents/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/collapsed/</loc>
-  </url><url>
     <loc>http://teacup.hackerhomestead.com/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://teacup.hackerhomestead.com/categories/</loc>
@@ -54,41 +32,36 @@
     <loc>http://teacup.hackerhomestead.com/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/tags/templates/</loc>
+    <loc>http://teacup.hackerhomestead.com/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://teacup.hackerhomestead.com/docs/cookbooks/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/cookbooks/slackware-15.1-on-teacup/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/collapsed/3rd-level/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/general/1-overview/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/example/hidden/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/general/2-getting-started/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/general/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/buttons/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/100-embeded-linux-development/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/columns/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/101-t31-archetecture-and-development/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/details/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/102-software-development-kit/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/expand/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/103-comparitive-learning/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/hints/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/200-t31-advanced-features/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/katex/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/200-t31-advanced-features/intro/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/mermaid/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/section/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/guided-learning/supplimentery/</loc>
   </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/section/first-page/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/section/second-page/</loc>
-  </url><url>
-    <loc>http://teacup.hackerhomestead.com/docs/shortcodes/tabs/</loc>
+    <loc>http://teacup.hackerhomestead.com/docs/supplimentery/</loc>
   </url><url>
     <loc>http://teacup.hackerhomestead.com/docs/</loc>
   </url>

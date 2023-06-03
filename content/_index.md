@@ -4,7 +4,22 @@ type: docs
 ---
 
 ## What is the Teacup Tinkerboard?
+{{< hint danger>}}
+**⚠ 2023-06-01: The information provided is currently a work in progress and under review!** 
+
+For any technical information we attempt to validate as much as possiable prior to publishing.
+However you WILL run across dead links, placeholder sections etc.
+
+**Proceed at your own risk 🙃**
+
+We will be accepting pull requests and issues with this site via the teacup.hackerhomestead.com GitHub Repo,
+please submit any feedback, issues, other comments there.
+
+-Handy
+{{< /hint >}}
+
 ![Teacup RevA](/sm_teacup.png)
+
 
 {{< columns >}}
 ## > Makers
@@ -37,29 +52,29 @@ We have layed out the sections of this work based on a guided learning approch. 
 
 Here is a high level outline of the Volumes and what lies within
 
-### **TC100 - Inroduction to Embeded Linux Development** 
+### **100 - Inroduction to Embeded Linux Development** 
 This would include a set of documentation and getting started videos for around teacup hardware and software. It would draw connections between the von numan archetecture and other basic computer concepts such as the 
 1. boot loader
 1. Operating System
 1. Programs and APIs
 and point them out in the teacup design as referance. This will also call out the diffrenaces between simple ICs, ASICS, FPGAs, Microcontrollers, SoC/SBCs and where the T31 fits ( somewhere between a MCU and SBC)
 
-### **TC101 - Intruction to T31 Archetecture and Development**
+### **101 - Intruction to T31 Archetecture and Development**
 Getting to know the T31 processor. This is basiclly a run down of the datasheet and intro to SDK with some addtional context
 
-### **TC102 - Intruction to the T31 SDK** 
+### **102 - Intruction to the T31 SDK** 
 Really this is just running though validating the Specsheet and vendor SDK/HDK
 , and each of the high level use cases such as those sections called out in the SDK: camera, image processing, USB, SPI, I2C, networking, and general GPIO & PWM etc. 
 The above is the specific "Getting started with T31 processor" type material. 
 
-### **TC103 - Comparitve Learning**
+### **103 - Comparitve Learning**
 Another set of tutorials 
 Would include reference experiments using common modules from projects like Arduino and Raspberry PI. Such as LCD, temperature acquisition. So that customers can learn not only how to reuse components that have already been well understood but they may contrast how they work with different platforms 
 
-### **TC200 - Advanced Features of the T31**
+### **200 - Advanced Features of the T31**
 Includes more advanced features of the T31 such as low power modes and using RTOS, Adding SRAM 
 
-### **TCXXX - Unstructured how-tos and expments (Hacking the Teacup)**
+### **Supplimentery - Unstructured how-tos and expments (Hacking the Teacup)**
 This would be where we go full boar into the crazy stuff that you never thought you could do with something the size of your fingernail
 
 
