@@ -5,15 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Slackware 15.1 on the Teacup # Introduction # One of our community members uncovered a version of Slackware that works on the T31
 Its very easy to get up and running on the Teacup RevA board. However it is not maintained any longer
-This is written as fast as possable, your YMMV Download Image # Primary Download: https://linode-tx-02.shortcutsolutions.net/slack.tar.gz
-Alt Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
+This is written as fast as possable, your YMMV Download Image # Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
 MD5 Sum 7012210f843bf289cb48d9428c7cb4bd slack.tar.gz Install # Create 2 partitions on your SD card and format them.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
 <meta property="og:description" content="Slackware 15.1 on the Teacup # Introduction # One of our community members uncovered a version of Slackware that works on the T31
 Its very easy to get up and running on the Teacup RevA board. However it is not maintained any longer
-This is written as fast as possable, your YMMV Download Image # Primary Download: https://linode-tx-02.shortcutsolutions.net/slack.tar.gz
-Alt Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
+This is written as fast as possable, your YMMV Download Image # Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
 MD5 Sum 7012210f843bf289cb48d9428c7cb4bd slack.tar.gz Install # Create 2 partitions on your SD card and format them." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://teacup.hackerhomestead.com/docs/cookbooks/slackware-15.1-on-teacup/" /><meta property="article:section" content="docs" />
@@ -24,7 +22,7 @@ MD5 Sum 7012210f843bf289cb48d9428c7cb4bd slack.tar.gz Install # Create 2 partiti
 <link rel="icon" href="../../../favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="../../../book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
   <script defer src="../../../flexsearch.min.js"></script>
-  <script defer src="../../../en.search.min.d5c2a40691713022833f6433a6477c18700d69245bf19b36f88c975fc7fe3cd0.js" integrity="sha256-1cKkBpFxMCKDP2Qzpkd8GHANaSRb8Zs2&#43;IyXX8f&#43;PNA=" crossorigin="anonymous"></script>
+  <script defer src="../../../en.search.min.10bf41cb2b93700433b6f4e391da921678c6dd6ef98cfe9f72cdf2c32cbe56f4.js" integrity="sha256-EL9ByyuTcAQztvTjkdqSFnjG3W75jP6fcs3ywyy&#43;VvQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -394,8 +392,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#download-image">Download Image</a></li>
     <li><a href="#install">Install</a></li>
-    <li><a href="#u-boot-stuff">u-boot stuff:</a></li>
-    <li><a href="#to-install-new-packages">To install new packages</a></li>
+    <li><a href="#u-boot">U-Boot</a></li>
+    <li><a href="#installing-addtional-packages">Installing Addtional Packages</a></li>
   </ul>
 </nav>
 
@@ -426,8 +424,7 @@ https://github.com/alex-shpak/hugo-book
   Download Image
   <a class="anchor" href="#download-image">#</a>
 </h2>
-<p>Primary Download: <a href="https://linode-tx-02.shortcutsolutions.net/slack.tar.gz">https://linode-tx-02.shortcutsolutions.net/slack.tar.gz</a></p>
-<p>Alt Download: <a href="https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz">https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz</a></p>
+<p>Download: <a href="https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz">https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz</a></p>
 <blockquote class="book-hint ">
   <strong>MD5 Sum</strong> <code>7012210f843bf289cb48d9428c7cb4bd  slack.tar.gz</code>
 </blockquote>
@@ -440,15 +437,15 @@ https://github.com/alex-shpak/hugo-book
 Small VFAT (I made mine 256M but only using 6M of that) for p1, ext3 (rest of the capacity) for p2.
 Mount p2 somewhere, create a boot directory inside and mount p1 to it.
 untar the slack archive into where you mounted p2 unmount both filesystems and the SD is ready to go</p>
-<h2 id="u-boot-stuff">
-  u-boot stuff:
-  <a class="anchor" href="#u-boot-stuff">#</a>
+<h2 id="u-boot">
+  U-Boot
+  <a class="anchor" href="#u-boot">#</a>
 </h2>
 <pre tabindex="0"><code>env set bootcmd &#39;fatload mmc 0 0x1000000 uImage; bootm 0x1000000&#39; 
 env set bootargs &#39;mem=128M console=ttyS1,115200n8 panic=5 rootwait root=/dev/mmcblk0p2&#39;
-</code></pre><h2 id="to-install-new-packages">
-  To install new packages
-  <a class="anchor" href="#to-install-new-packages">#</a>
+</code></pre><h2 id="installing-addtional-packages">
+  Installing Addtional Packages
+  <a class="anchor" href="#installing-addtional-packages">#</a>
 </h2>
 <ol>
 <li>find the package at
@@ -503,8 +500,8 @@ env set bootargs &#39;mem=128M console=ttyS1,115200n8 panic=5 rootwait root=/dev
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#download-image">Download Image</a></li>
     <li><a href="#install">Install</a></li>
-    <li><a href="#u-boot-stuff">u-boot stuff:</a></li>
-    <li><a href="#to-install-new-packages">To install new packages</a></li>
+    <li><a href="#u-boot">U-Boot</a></li>
+    <li><a href="#installing-addtional-packages">Installing Addtional Packages</a></li>
   </ul>
 </nav>
 

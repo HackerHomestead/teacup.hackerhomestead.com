@@ -10,9 +10,7 @@ This is written as fast as possable, your YMMV
 {{< /hint >}}
 
 ## Download Image
-Primary Download: https://linode-tx-02.shortcutsolutions.net/slack.tar.gz 
-
-Alt Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
+Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
 
 {{< hint >}}
 **MD5 Sum** ``7012210f843bf289cb48d9428c7cb4bd  slack.tar.gz``
@@ -25,13 +23,13 @@ Mount p2 somewhere, create a boot directory inside and mount p1 to it.
 untar the slack archive into where you mounted p2 unmount both filesystems and the SD is ready to go
 
 
-## u-boot stuff: 
+## U-Boot
 ```
 env set bootcmd 'fatload mmc 0 0x1000000 uImage; bootm 0x1000000' 
 env set bootargs 'mem=128M console=ttyS1,115200n8 panic=5 rootwait root=/dev/mmcblk0p2'
 ```
 
-## To install new packages 
+## Installing Addtional Packages
 1. find the package at 
 	- https://bonslack.org/15.1-curr/bonslack_mipsel-current/slackware/
 	- https://www.hackerhomestead.com/files/teacup/slackware-mips/bonslack.org/15.1-curr/

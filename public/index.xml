@@ -28,8 +28,7 @@ Follow the following steps:</description>
       <guid>http://teacup.hackerhomestead.com/docs/cookbooks/slackware-15.1-on-teacup/</guid>
       <description>Slackware 15.1 on the Teacup # Introduction # One of our community members uncovered a version of Slackware that works on the T31
 Its very easy to get up and running on the Teacup RevA board. However it is not maintained any longer
-This is written as fast as possable, your YMMV Download Image # Primary Download: https://linode-tx-02.shortcutsolutions.net/slack.tar.gz
-Alt Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
+This is written as fast as possable, your YMMV Download Image # Download: https://www.hackerhomestead.com/files/teacup/slackware-mips/slack.tar.gz
 MD5 Sum 7012210f843bf289cb48d9428c7cb4bd slack.tar.gz Install # Create 2 partitions on your SD card and format them.</description>
     </item>
     
